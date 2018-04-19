@@ -1,0 +1,17 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller to check that application compiled successfuly
+GET     /ping                       controllers.PingController.index
+
+POST    /login                      controllers.AuthController.login
+
+GET     /movie                      controllers.MovieController.getMovie
+
+GET     /movies                     controllers.MovieController.getMovies
+
+PUT     /movie                      controllers.MovieController.updateMovieDescription
+
+DELETE  /movie                      controllers.MovieController.deleteMovie
